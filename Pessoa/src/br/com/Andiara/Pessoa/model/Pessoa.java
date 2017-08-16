@@ -4,6 +4,14 @@ import java.util.Date;
 
 public class Pessoa {
 
+	public Signo getSigno() {
+		return signo;
+	}
+
+	public void setSigno(Signo signo) {
+		this.signo = signo;
+	}
+
 	private int codigo;
 	private String nome;
 	private Date data_nasc;

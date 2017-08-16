@@ -10,11 +10,17 @@ public class PessoaTeste {
 
 	
 	public static void main(String[] args) throws SQLException {
+		
+		PessoaService pessoaSigno = new PessoaService();
+		
 		List<Pessoa> lPessoa = new PessoaService().lPessoas();
 		for (Pessoa pessoa : lPessoa) {
-			System.out.println(pessoa.getNome());
-		
+			System.out.println("\n"+pessoa.getNome() + "\n") ;
+			
+			pessoaSigno.consultaSigno(pessoa);
 
         }
+			
+		
 	}
 }
