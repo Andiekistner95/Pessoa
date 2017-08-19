@@ -9,7 +9,6 @@ import java.util.Date;
 import java.util.List;
 
 import br.com.Andiara.Pessoa.model.Pessoa;
-import br.com.Andiara.Pessoa.model.Signo;
 
 public class PessoaDAO {
 
